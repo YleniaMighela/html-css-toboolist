@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#testo-logo{
+    font-size: 40px;
+    font-weight: 600;
+}
