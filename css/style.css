@@ -3,14 +3,17 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: lightgray;
+}
+
 header{
     background-color: white;
     
 }
 
-body{
-    background-color: lightgray;
-}
+
 
 #testo-logo{
     font-size: 40px;
@@ -18,11 +21,18 @@ body{
     
 }
 
-#container{
+.container{
     background-color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
     
 }
 
+#button{
+    padding-top: 20px;
+}
 #button-task{
     width:60px;
     height:35px;
@@ -41,5 +51,7 @@ body{
     vertical-align: middle;
     display: inline-block;
 }
+ .task{
+    padding-top: 20px;
+ }
 
-}
