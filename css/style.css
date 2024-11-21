@@ -23,9 +23,9 @@ header{
 
 .container{
     background-color: white;
-    width: 60%;
-    margin: 30px auto;
-    padding: 15px;
+    width: 70%;
+    margin: 40px auto;
+    padding: 15px 50px;
     
 }
 
@@ -78,4 +78,31 @@ padding:2px 2px;
     border:2px solid red;
     border-radius:50%;
     padding:2px 2px;
+}
+
+.etichetta{
+    margin-left:10px;
+    font-size:10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+   
+}
+.etichetta.blue{
+    background-color: rgb(0, 153, 255);
+}
+.etichetta.purple{
+    background-color: blueviolet;
+}
+.etichetta.green{
+    background-color: rgb(5, 185, 65);
+}
+.etichetta.orange{
+    background-color: orangered;
+}
+.etichetta.pink{
+    background-color: palevioletred;
+}
+.etichetta.lime{
+    background-color: lime;
 }
