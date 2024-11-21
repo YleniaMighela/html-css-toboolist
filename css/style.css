@@ -23,35 +23,59 @@ header{
 
 .container{
     background-color: white;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 5%;
+    width: 60%;
+    margin: 30px auto;
+    padding: 15px;
     
 }
 
 #button{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #button-task{
+    color:lightgrey;
     width:60px;
     height:35px;
     background-color: rgb(7, 87, 235);
     border-radius:5px;
     text-align: center;
     vertical-align: middle;
-    display: inline-block;
+
 }
 
 #button-section{
+    color:lightgrey;
     width:60px;
     height:35px;
     border-radius:5px;
     text-align: center;
     vertical-align: middle;
-    display: inline-block;
+    
 }
- .task{
+ .section-task{
     padding-top: 20px;
  }
 
+.task::before{
+    content:"\25BC";
+    font-size:16px;
+    margin-right:5px;
+}
+.spuntato::before{
+content:"\2713";
+font-size:15px;
+color:green;
+border:2px solid green;
+border-radius:50%;
+padding:2px 2px;
+
+}
+
+.nonspuntato:before{
+    content:"\2715";
+    font-size:15px;
+    color:red;
+    border:2px solid red;
+    border-radius:50%;
+    padding:2px 2px;
+}
